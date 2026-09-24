@@ -1,6 +1,9 @@
 # NAUQ Arch3D
 
-[English](#english) | [Tiếng Việt](#tiếng-việt)
+[![Version](https://img.shields.io/badge/Version-v1.9.14-blue.svg)](https://github.com/nauquu/nauq_arch3d/releases/latest)
+[![SketchUp](https://img.shields.io/badge/SketchUp-2017--2026-brightgreen.svg)]()
+[![Trimble](https://img.shields.io/badge/Trimble-Signed%20Extension-orange.svg)]()
+[![License](https://img.shields.io/badge/License-Proprietary-lightgrey.svg)]()
 
 ---
 
@@ -35,6 +38,10 @@ NAUQ Arch3D is a SketchUp extension designed for architects and 3D modelers. It 
 
 If you encounter an issue or have a feature suggestion, please open a ticket on [GitHub Issues](https://github.com/nauquu/nauq_arch3d/issues).
 
+### License
+
+Proprietary software. Copyright (c) 2026 NAUQ Architecture. All rights reserved.
+
 ---
 
 ## Tiếng Việt
@@ -67,3 +74,7 @@ NAUQ Arch3D là tiện ích dành riêng cho kiến trúc sư và người dựn
 ### Hỗ trợ & Góp ý
 
 Nếu bạn gặp lỗi trong quá trình sử dụng hoặc muốn đóng góp ý kiến cải tiến, vui lòng gửi phản hồi tại mục [GitHub Issues](https://github.com/nauquu/nauq_arch3d/issues).
+
+### Bản quyền
+
+Bản quyền phần mềm thuộc về NAUQ Architecture (c) 2026. Mọi quyền được bảo lưu.
