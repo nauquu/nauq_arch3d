@@ -1,0 +1,6 @@
+# Public Repository .gitignore
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
