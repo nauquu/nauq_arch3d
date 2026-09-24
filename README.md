@@ -1,4 +1,4 @@
-﻿# NAUQ Arch3D — SketchUp Plugin
+# NAUQ Arch3D — SketchUp Plugin
 
 > **Plugin tự động chuyển đổi bản vẽ kiến trúc 2D CAD (DWG) thành mô hình 3D SketchUp chuyên nghiệp và dựng cửa/cửa sổ tham số thông minh.**
 
@@ -11,7 +11,9 @@
 ## 📥 Tải về & Cài đặt (Installation)
 
 ### 1. Tải bản mới nhất
-👉 Tải tệp cài đặt **[`nauq_arch3d.rbz`](releases/nauq_arch3d.rbz)** từ thư mục [releases/](releases/) hoặc tab [Releases trên GitHub](../../releases).
+👉 **[Tải ngay nauq_arch3d.rbz (Bản mới nhất)](https://github.com/nauquu/nauq_arch3d/releases/latest/download/nauq_arch3d.rbz)**
+
+*(Hoặc xem tất cả phiên bản tại mục [GitHub Releases](https://github.com/nauquu/nauq_arch3d/releases))*
 
 ### 2. Cài đặt vào SketchUp
 1. Mở phần mềm **SketchUp** (tương thích từ SketchUp 2017 đến SketchUp 2026).
