@@ -38,10 +38,6 @@ NAUQ Arch3D is a SketchUp extension designed for architects and 3D modelers. It 
 
 If you encounter an issue or have a feature suggestion, please open a ticket on [GitHub Issues](https://github.com/nauquu/nauq_arch3d/issues).
 
-### License
-
-Proprietary software. Copyright (c) 2026 NAUQ Architecture. All rights reserved.
-
 ---
 
 ## Tiếng Việt
@@ -74,7 +70,3 @@ NAUQ Arch3D là tiện ích dành riêng cho kiến trúc sư và người dựn
 ### Hỗ trợ & Góp ý
 
 Nếu bạn gặp lỗi trong quá trình sử dụng hoặc muốn đóng góp ý kiến cải tiến, vui lòng gửi phản hồi tại mục [GitHub Issues](https://github.com/nauquu/nauq_arch3d/issues).
-
-### Bản quyền
-
-Bản quyền phần mềm thuộc về NAUQ Architecture (c) 2026. Mọi quyền được bảo lưu.
