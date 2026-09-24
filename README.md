@@ -18,11 +18,13 @@ NAUQ Arch3D is a SketchUp extension designed for architects and 3D modelers. It 
 
 ### Key Features
 
-- **Automated CAD to 3D Generation**: Automatically detects wall lines from CAD drawings and generates clean 3D solid walls.
-- **Accurate Wall Openings & Lintels**: Automatically cuts wall openings for doors and windows with proper lintel beams.
-- **Realistic Aluminum Doors & Windows**: Generates parametric doors and windows matching real aluminum profile depths (Slim, Xingfa, standard systems).
-- **Interactive 3D Preview**: Preview door designs, panels, glass, and hardware (handles, locks, hinges) in 3D before placing them into the model.
-- **Quick Modification Tools**: Resize walls and openings, batch replace door models, and build stairs with a single click.
+- **Automated CAD to 3D Generation**: Automatically detects wall lines from 2D drawings and generates clean solid 3D walls.
+- **Wall Openings**: Automatically detects doors and windows to cut wall openings at accurate elevations.
+- **Smart Aluminum Doors & Windows**: Automatically detects openings to insert doors and windows.
+- **Quick Modification Tools**: Flexibly resize walls and openings, and batch replace door models.
+- **Stair Builder**: Generates stairs directly in 3D based on input dimensions without needing 2D drawings.
+- **Hide Overlapping Lines**: Automatically hides overlapping lines within the selected area.
+- **Camera View Export**: Supports copying camera views to the clipboard for AI rendering workflows.
 
 ### System Requirements
 
@@ -43,17 +45,19 @@ NAUQ Arch3D là tiện ích dành riêng cho kiến trúc sư và người dựn
 
 1. Tải bộ cài đặt mới nhất: [Tải về nauq_arch3d.rbz](https://github.com/nauquu/nauq_arch3d/releases/latest/download/nauq_arch3d.rbz)
 2. Mở phần mềm SketchUp (hỗ trợ các phiên bản từ 2017 đến 2026).
-3. Vào menu **Extensions** > **Extension Manager** (hoặc **Cửa sổ** > **Quản lý Tiện ích**).
-4. Bấm nút **Install Extension** (Cài đặt Tiện ích) và chọn tệp `nauq_arch3d.rbz` vừa tải về.
+3. Vào menu **Extensions** > **Extension Manager**.
+4. Bấm nút **Install Extension** và chọn tệp `nauq_arch3d.rbz` vừa tải về.
 5. Thanh công cụ **NAUQ Arch3D** sẽ tự động hiển thị trên màn hình làm việc.
 
 ### Tính năng chính
 
 - **Dựng tường 3D từ CAD tự động**: Nhận diện các nét tường từ bản vẽ 2D và tạo khối tường 3D liền khối, chuẩn xác.
-- **Khoét lỗ cửa và dầm lanh-tô**: Tự động nhận diện cửa đi, cửa sổ để khoét tường và tạo dầm lanh-tô chuẩn cao độ.
-- **Cửa nhôm kính thông minh**: Tự động căn chỉnh bề dày cánh theo profile nhôm thực tế ngoài đời (hệ Slim, Xingfa, hệ thủy lực...).
-- **Xem trước 3D trực quan**: Xem trước kiểu dáng cánh, kính và vị trí phụ kiện (tay nắm, khóa, bản lề) trước khi đặt vào công trình.
-- **Bộ công cụ chỉnh sửa nhanh**: Thay đổi kích thước tường và cửa linh hoạt, thay thế mẫu cửa hàng loạt, hỗ trợ dựng cầu thang tự động.
+- **Khoét lỗ cửa**: Tự động nhận diện cửa đi, cửa sổ để khoét tường chuẩn cao độ.
+- **Cửa nhôm kính thông minh**: Tự động nhận diện lỗ cửa để vẽ cửa vào.
+- **Bộ công cụ chỉnh sửa nhanh**: Thay đổi kích thước tường và cửa linh hoạt, thay thế mẫu cửa hàng loạt.
+- **Tạo cầu thang**: Hỗ trợ tạo cầu thang từ các thông số, không cần 2d, dựng trực tiếp trong 3d.
+- **Ẩn nét trùng**: Tự động ẩn nét trùng từ vùng chọn.
+- **Xuất camera**: Hỗ trợ xuất view camera vào clipboard để dùng cho render AI.
 
 ### Yêu cầu hệ thống
 
