@@ -1,61 +1,65 @@
-# NAUQ Arch3D — SketchUp Plugin
+# NAUQ Arch3D
 
-> **Plugin tự động chuyển đổi bản vẽ kiến trúc 2D CAD (DWG) thành mô hình 3D SketchUp chuyên nghiệp và dựng cửa/cửa sổ tham số thông minh.**
-
-[![Release](https://img.shields.io/badge/Release-v1.9.14-blue.svg)](releases/)
-[![SketchUp](https://img.shields.io/badge/SketchUp-2017--2026-brightgreen.svg)]()
-[![Trimble Compliant](https://img.shields.io/badge/Trimble-Extension%20Compliant-orange.svg)]()
+[English](#english) | [Tiếng Việt](#tiếng-việt)
 
 ---
 
-## 📥 Tải về & Cài đặt (Installation)
+## English
 
-### 1. Tải bản mới nhất
-👉 **[Tải ngay nauq_arch3d.rbz (Bản mới nhất)](https://github.com/nauquu/nauq_arch3d/releases/latest/download/nauq_arch3d.rbz)**
+NAUQ Arch3D is a SketchUp extension designed for architects and 3D modelers. It automatically converts 2D CAD floor plans (DWG) into clean 3D architectural models, complete with solid walls, door openings, lintels, parametric aluminum doors, windows, and hardware.
 
-*(Hoặc xem tất cả phiên bản tại mục [GitHub Releases](https://github.com/nauquu/nauq_arch3d/releases))*
+### Installation
 
-### 2. Cài đặt vào SketchUp
-1. Mở phần mềm **SketchUp** (tương thích từ SketchUp 2017 đến SketchUp 2026).
-2. Trên thanh menu, chọn:
-   - **Extensions** $\rightarrow$ **Extension Manager** (hoặc `Cửa sổ` $\rightarrow$ `Quản lý Tiện ích`).
-3. Nhấp nút **Install Extension** (Cài đặt Tiện ích) ở góc dưới.
-4. Chọn tệp **`nauq_arch3d.rbz`** vừa tải về.
-5. Thanh công cụ **NAUQ Arch3D** sẽ tự động xuất hiện trên màn hình!
+1. Download the latest release package: [Download nauq_arch3d.rbz](https://github.com/nauquu/nauq_arch3d/releases/latest/download/nauq_arch3d.rbz)
+2. Open SketchUp (supported versions: 2017 to 2026).
+3. Navigate to **Extensions** > **Extension Manager**.
+4. Click **Install Extension** and select the downloaded `nauq_arch3d.rbz` file.
+5. The **NAUQ Arch3D** toolbar will appear on your screen ready to use.
 
----
+### Key Features
 
-## 🚀 Tính năng nổi bật (Key Features)
+- **Automated CAD to 3D Generation**: Automatically detects wall lines from CAD drawings and generates clean 3D solid walls.
+- **Accurate Wall Openings & Lintels**: Automatically cuts wall openings for doors and windows with proper lintel beams.
+- **Realistic Aluminum Doors & Windows**: Generates parametric doors and windows matching real aluminum profile depths (Slim, Xingfa, standard systems).
+- **Interactive 3D Preview**: Preview door designs, panels, glass, and hardware (handles, locks, hinges) in 3D before placing them into the model.
+- **Quick Modification Tools**: Resize walls and openings, batch replace door models, and build stairs with a single click.
 
-1. **Chuyển đổi 2D CAD sang 3D tự động (CAD to 3D):**
-   - Đọc trực tiếp các layer tường, cột, cửa đi, cửa sổ từ bản vẽ CAD (DWG).
-   - Tự động dựng tường đặc, đục lỗ cửa (openings), tạo dầm lanh-tô chính xác từng milimet.
-2. **Hệ thống Cửa & Cửa sổ tham số (Parametric Doors & Windows):**
-   - Hỗ trợ cửa 1 cánh, 2 cánh, 4 cánh, cửa trượt lùa (sliding), cửa vòm (arch), vách kính cố định.
-   - Thư viện cửa nhôm kính định hình: Xingfa, Slim, thủy lực...
-   - Tự động căn chỉnh bề dày cánh theo profile nhôm thực tế.
-3. **Thư viện Phụ kiện & Profile 3D:**
-   - Quản lý tay nắm, bản lề, phụ kiện 3D cho cả mặt trước, mặt sau và ở giữa.
-   - Trực quan hóa 3D Preview thời gian thực trước khi chèn vào bản vẽ.
-4. **Công cụ chỉnh sửa thông minh:**
-   - Thay thế nhanh kiểu cửa hàng loạt (`Replace Door`).
-   - Đổi kích thước tường và cửa linh hoạt (`Resize Tool`).
-   - Dựng cầu thang tự động (`Stair Builder`).
+### System Requirements
+
+- **Operating System**: Windows 10 / Windows 11 (64-bit)
+- **SketchUp Versions**: SketchUp 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
+
+### Feedback & Support
+
+If you encounter an issue or have a feature suggestion, please open a ticket on [GitHub Issues](https://github.com/nauquu/nauq_arch3d/issues).
 
 ---
 
-## 🛠️ Yêu cầu hệ thống (System Requirements)
-- **Hệ điều hành:** Windows 10/11 (64-bit).
-- **SketchUp:** SketchUp 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+## Tiếng Việt
 
----
+NAUQ Arch3D là tiện ích dành riêng cho kiến trúc sư và người dựng hình SketchUp, giúp chuyển đổi nhanh bản vẽ mặt bằng 2D CAD (DWG) thành mô hình kiến trúc 3D với tường đặc, đục lỗ cửa, lanh-tô và hệ thống cửa nhôm kính tham số chân thực.
 
-## 💬 Hỗ trợ & Báo lỗi (Feedback & Issues)
-Nếu bạn gặp sự cố, lỗi phát sinh hoặc muốn đóng góp ý kiến phát triển tính năng:
-- Tạo phản hồi tại tab **[Issues](../../issues)** để được hỗ trợ nhanh nhất.
-- Hoặc sử dụng tính năng **Báo cáo chẩn đoán** trực tiếp trong menu Plugin.
+### Cài đặt
 
----
-© 2026 **NAUQ Architecture**. Bản quyền thuộc về tác giả.
+1. Tải bộ cài đặt mới nhất: [Tải về nauq_arch3d.rbz](https://github.com/nauquu/nauq_arch3d/releases/latest/download/nauq_arch3d.rbz)
+2. Mở phần mềm SketchUp (hỗ trợ các phiên bản từ 2017 đến 2026).
+3. Vào menu **Extensions** > **Extension Manager** (hoặc **Cửa sổ** > **Quản lý Tiện ích**).
+4. Bấm nút **Install Extension** (Cài đặt Tiện ích) và chọn tệp `nauq_arch3d.rbz` vừa tải về.
+5. Thanh công cụ **NAUQ Arch3D** sẽ tự động hiển thị trên màn hình làm việc.
 
+### Tính năng chính
 
+- **Dựng tường 3D từ CAD tự động**: Nhận diện các nét tường từ bản vẽ 2D và tạo khối tường 3D liền khối, chuẩn xác.
+- **Khoét lỗ cửa và dầm lanh-tô**: Tự động nhận diện cửa đi, cửa sổ để khoét tường và tạo dầm lanh-tô chuẩn cao độ.
+- **Cửa nhôm kính thông minh**: Tự động căn chỉnh bề dày cánh theo profile nhôm thực tế ngoài đời (hệ Slim, Xingfa, hệ thủy lực...).
+- **Xem trước 3D trực quan**: Xem trước kiểu dáng cánh, kính và vị trí phụ kiện (tay nắm, khóa, bản lề) trước khi đặt vào công trình.
+- **Bộ công cụ chỉnh sửa nhanh**: Thay đổi kích thước tường và cửa linh hoạt, thay thế mẫu cửa hàng loạt, hỗ trợ dựng cầu thang tự động.
+
+### Yêu cầu hệ thống
+
+- **Hệ điều hành**: Windows 10 / Windows 11 (64-bit)
+- **Phiên bản SketchUp**: SketchUp 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
+
+### Hỗ trợ & Góp ý
+
+Nếu bạn gặp lỗi trong quá trình sử dụng hoặc muốn đóng góp ý kiến cải tiến, vui lòng gửi phản hồi tại mục [GitHub Issues](https://github.com/nauquu/nauq_arch3d/issues).

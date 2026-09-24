@@ -1,14 +1,18 @@
-# Nhật ký thay đổi (Release Notes)
+# Changelog
 
-Tất cả các bản phát hành của **NAUQ Arch3D** được ghi nhận chi tiết tại đây.
+All user-facing updates and release notes for NAUQ Arch3D are documented here.
 
 ---
 
-## [v1.9.14] - 2026-09-24
+## [1.9.14] - 2026-09-24
 
-### Đổi mới & Nâng cấp (Features & Enhancements)
-- **Đổi tên nhận diện thương hiệu:** Đổi tên chính thức thành **NAUQ Arch3D** (`nauq_arch3d`).
-- **Profile-Driven Leaf Depth:** Bề dày cánh cửa (`leaf_depth`) nay được tính toán tự động 100% dựa theo đa giác profile nhôm thực tế (hệ Slim 60mm, hệ Xingfa 55mm, hệ tiêu chuẩn 40mm).
-- **Chuẩn hóa ăn khớp hèm khung bao:** Mặt trước cánh tự động bám khít hèm khung bao chuẩn 20mm; kính tự động căn giữa tim cánh.
-- **Đồng bộ hóa 3D Preview và SketchUp:** Tọa độ và hướng quay của phụ kiện (mặt trước, mặt sau, chính giữa) khớp 1:1 giữa giao diện xem trước WebGL và mô hình thực tế trong SketchUp.
-- **Tự động nhận diện ngưỡng cửa sổ:** Cửa sổ 4 cạnh giữ nguyên ngưỡng đáy đồng bộ với cao độ đặt phụ kiện.
+### Rebranding & New Identity
+- Extension officially renamed to **NAUQ Arch3D** (`nauq_arch3d`).
+- Upgraded installer package to Trimble SketchUp extension standards.
+
+### Door & Window Enhancements
+- **Real Aluminum Profile Thickness**: Door leaf thickness now automatically adapts to the actual dimensions of your selected aluminum profile (Slim systems, Xingfa systems, or standard profiles).
+- **Accurate Frame Rebate Fitting**: Door leaves now sit flush against the standard 20mm frame rebate, ensuring seamless alignment with outer frames.
+- **Glass Centering**: Window and door glass panels are automatically centered along the leaf thickness.
+- **Consistent 3D Preview**: Hardware positions (handles, locks, hinges) on front, back, or center faces now match 1:1 between the interactive 3D preview window and the 3D model in SketchUp.
+- **Window Sill Preservation**: 4-sided window frames now maintain proper lower sills matching floor elevation.
