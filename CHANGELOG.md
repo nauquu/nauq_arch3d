@@ -4,6 +4,13 @@ All user-facing updates and release notes for NAUQ Arch3D are documented here.
 
 ---
 
+## [1.9.17] - 2026-09-28
+
+### Compatibility & Reliability
+- **Trimble Signed Extension Loading**: Fixed startup load failure on Trimble-signed releases by ensuring encrypted `.rbe` modules decrypt and initialize cleanly without extension mismatch.
+
+---
+
 ## [1.9.16] - 2026-09-28
 
 ### Performance & Usability
