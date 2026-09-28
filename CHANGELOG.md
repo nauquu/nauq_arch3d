@@ -4,13 +4,6 @@ All user-facing updates and release notes for NAUQ Arch3D are documented here.
 
 ---
 
-## [1.9.17] - 2026-09-28
-
-### Compatibility & Reliability
-- **Trimble Signed Extension Loading**: Fixed startup load failure on Trimble-signed releases by ensuring encrypted `.rbe` modules decrypt and initialize cleanly without extension mismatch.
-
----
-
 ## [1.9.16] - 2026-09-28
 
 ### Performance & Usability
@@ -19,6 +12,7 @@ All user-facing updates and release notes for NAUQ Arch3D are documented here.
 - **Dynamic Block Detection**: Restored seamless detection and 3D generation for dynamic CAD door blocks with arch swings.
 
 ### Geometry & Architecture
+- **Trimble Signed Extension Loading**: Fixed startup load failure on Trimble-signed releases by ensuring encrypted `.rbe` modules decrypt and initialize cleanly without extension mismatch.
 - **Jamb & Lintel Alignment**: Opening tops and lintels automatically straighten to a clean rectangular cross-section even when jambs connect to columns or offset walls.
 - **Precision Tolerance**: Calibrated door opening tolerances to prevent false-alarm positioning warnings on 90-degree door swing variants.
 - **Enhanced Diagnostics**: Clear status indicators during drawing analysis to help verify detected door and window counts.

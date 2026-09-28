@@ -1,6 +1,6 @@
 # NAUQ Arch3D
 
-[![Version](https://img.shields.io/badge/Version-v1.9.17-blue.svg)](https://github.com/nauquu/nauq_arch3d/releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.9.16-blue.svg)](https://github.com/nauquu/nauq_arch3d/releases/latest)
 [![SketchUp](https://img.shields.io/badge/SketchUp-2017--2026-brightgreen.svg)]()
 [![Trimble](https://img.shields.io/badge/Trimble-Signed%20Extension-orange.svg)]()
 [![License](https://img.shields.io/badge/License-Proprietary-lightgrey.svg)]()
