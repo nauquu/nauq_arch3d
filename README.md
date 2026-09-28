@@ -1,9 +1,11 @@
 # NAUQ Arch3D
 
-[![Version](https://img.shields.io/badge/Version-v1.9.14-blue.svg)](https://github.com/nauquu/nauq_arch3d/releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.9.16-blue.svg)](https://github.com/nauquu/nauq_arch3d/releases/latest)
 [![SketchUp](https://img.shields.io/badge/SketchUp-2017--2026-brightgreen.svg)]()
 [![Trimble](https://img.shields.io/badge/Trimble-Signed%20Extension-orange.svg)]()
 [![License](https://img.shields.io/badge/License-Proprietary-lightgrey.svg)]()
+
+[English](#english) • [Tiếng Việt](#tiếng-việt)
 
 ---
 
@@ -19,14 +21,30 @@ NAUQ Arch3D is a SketchUp extension designed for architects and 3D modelers. It 
 4. Click **Install Extension** and select the downloaded `nauq_arch3d.rbz` file.
 5. The **NAUQ Arch3D** toolbar will appear on your screen ready to use.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f3ee3bc2-8bd8-47cb-9e05-bb765aa4cbb5" alt="NAUQ Arch3D Toolbar" />
+</p>
+
 ### Key Features
 
 - **Automated CAD to 3D Generation**: Automatically detects wall lines from 2D drawings and generates clean solid 3D walls.
+
+  <video src="https://github.com/user-attachments/assets/a72f9d73-3954-4630-bb92-10628856807d" controls autoplay loop muted playsinline width="100%"></video>
+
 - **Wall Openings**: Automatically detects doors and windows to cut wall openings at accurate elevations.
-- **Smart Aluminum Doors & Windows**: Automatically detects openings to insert doors and windows.
-- **Quick Modification Tools**: Flexibly resize walls and openings, and batch replace door models.
-- **Stair Builder**: Generates stairs directly in 3D based on input dimensions without needing 2D drawings.
+
+  <video src="https://github.com/user-attachments/assets/30a86f11-9fdc-4c20-9156-6186e2c1d4d2" controls autoplay loop muted playsinline width="100%"></video>
+
+- **Smart Aluminum Doors & Quick Modification**: Automatically detects openings to insert parametric doors/windows, flexibly resizes openings while preserving frame proportions, and supports batch model replacement.
+
+  <video src="https://github.com/user-attachments/assets/e4a41961-97a9-4c3e-9441-2c3b120ef179" controls autoplay loop muted playsinline width="100%"></video>
+
+- **Stair Builder**: Generates straight, L-shaped, and U-shaped stairs directly in 3D (supporting flat or 2-to-3 winder landings) with automatic riser calculation.
+
+  <video src="https://github.com/user-attachments/assets/bbe1432b-d28b-4d83-add1-34ca7c464d53" controls autoplay loop muted playsinline width="100%"></video>
+
 - **Hide Overlapping Lines**: Automatically hides overlapping lines within the selected area.
+
 - **Camera View Export**: Supports copying camera views to the clipboard for AI rendering workflows.
 
 ### System Requirements
@@ -52,14 +70,30 @@ NAUQ Arch3D là tiện ích dành riêng cho kiến trúc sư và người dựn
 4. Bấm nút **Install Extension** và chọn tệp `nauq_arch3d.rbz` vừa tải về.
 5. Thanh công cụ **NAUQ Arch3D** sẽ tự động hiển thị trên màn hình làm việc.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f3ee3bc2-8bd8-47cb-9e05-bb765aa4cbb5" alt="Thanh công cụ NAUQ Arch3D" />
+</p>
+
 ### Tính năng chính
 
 - **Dựng tường 3D từ CAD tự động**: Nhận diện các nét tường từ bản vẽ 2D và tạo khối tường 3D liền khối, chuẩn xác.
+
+  <video src="https://github.com/user-attachments/assets/a72f9d73-3954-4630-bb92-10628856807d" controls autoplay loop muted playsinline width="100%"></video>
+
 - **Khoét lỗ cửa**: Tự động nhận diện cửa đi, cửa sổ để khoét tường chuẩn cao độ.
-- **Cửa nhôm kính thông minh**: Tự động nhận diện lỗ cửa để vẽ cửa vào.
-- **Bộ công cụ chỉnh sửa nhanh**: Thay đổi kích thước tường và cửa linh hoạt, thay thế mẫu cửa hàng loạt.
-- **Tạo cầu thang**: Hỗ trợ tạo cầu thang từ các thông số, không cần 2d, dựng trực tiếp trong 3d.
+
+  <video src="https://github.com/user-attachments/assets/30a86f11-9fdc-4c20-9156-6186e2c1d4d2" controls autoplay loop muted playsinline width="100%"></video>
+
+- **Cửa nhôm kính thông minh & Chỉnh sửa nhanh**: Tự động nhận diện lỗ cửa để vẽ cửa vào, hỗ trợ kéo dãn kích thước giữ nguyên bản đố, chọn cung Lỗ Ban đỏ và thay thế mẫu cửa hàng loạt.
+
+  <video src="https://github.com/user-attachments/assets/e4a41961-97a9-4c3e-9441-2c3b120ef179" controls autoplay loop muted playsinline width="100%"></video>
+
+- **Tạo cầu thang 3D**: Hỗ trợ thang thẳng, thang chữ L, chữ U (chiếu nghỉ phẳng hoặc chia 2–3 bậc chéo), tự động tính chiều cao cổ bậc và số bậc theo cung phong thủy (Sinh - Lão - Bệnh - Tử).
+
+  <video src="https://github.com/user-attachments/assets/bbe1432b-d28b-4d83-add1-34ca7c464d53" controls autoplay loop muted playsinline width="100%"></video>
+
 - **Ẩn nét trùng**: Tự động ẩn nét trùng từ vùng chọn.
+
 - **Xuất camera**: Hỗ trợ xuất view camera vào clipboard để dùng cho render AI.
 
 ### Yêu cầu hệ thống

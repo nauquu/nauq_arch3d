@@ -4,6 +4,20 @@ All user-facing updates and release notes for NAUQ Arch3D are documented here.
 
 ---
 
+## [1.9.16] - 2026-09-28
+
+### Performance & Usability
+- **Instant DWG Import**: Background pre-warming of SketchUp's native CAD importer eliminates the initial loading freeze on first import.
+- **In-App Auto-Update & Progress Display**: Seamless update checking and one-click downloading with real-time progress bar directly inside Settings Dialog.
+- **Dynamic Block Detection**: Restored seamless detection and 3D generation for dynamic CAD door blocks with arch swings.
+
+### Geometry & Architecture
+- **Jamb & Lintel Alignment**: Opening tops and lintels automatically straighten to a clean rectangular cross-section even when jambs connect to columns or offset walls.
+- **Precision Tolerance**: Calibrated door opening tolerances to prevent false-alarm positioning warnings on 90-degree door swing variants.
+- **Enhanced Diagnostics**: Clear status indicators during drawing analysis to help verify detected door and window counts.
+
+---
+
 ## [1.9.14] - 2026-09-24
 
 ### Rebranding & New Identity
